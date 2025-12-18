@@ -1,0 +1,45 @@
+cognitive-complexity-threshold = 15
+type-complexity-threshold = 250
+
+min-ident-chars-threshold = 2
+
+unnecessary-cast = "warn"
+
+vec-box-size-threshold = 4096
+
+literal-representation-threshold = 10000
+
+too-many-arguments-threshold = 7
+too-many-lines-threshold = 100
+
+struct-excessive-bools-threshold = 3
+
+array-size-threshold = 512000
+
+max-literal-line-length = 120
+
+enum-variant-size-threshold = 200
+large-error-threshold = 128
+
+max-macro-expansions = 5
+
+too-many-trait-bounds-threshold = 5
+
+single-char-lifetime-names = ["a", "b", "c"]
+
+allowed-wildcard-imports = []
+
+disallowed-names = ["foo", "bar", "baz", "TODO"]
+
+disallowed-types = []
+
+disallowed-methods = []
+
+warn-on-all-wildcard-imports = true
+
+prefer-slice-to-array-in-type-parameters = true
+
+allow-expect-in-tests = true
+allow-unwrap-in-tests = true
+
+float-comparison-threshold = 1e-6
