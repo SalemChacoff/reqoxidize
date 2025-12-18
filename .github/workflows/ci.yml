@@ -9,14 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install cargo-audit, cargo-deny, tarpaulin, chef
+      - name: Install tools
         run: cargo install cargo-audit cargo-deny cargo-tarpaulin cargo-chef
 
       - name: Security check
         run: cargo audit
 
       - name: Dependency policy check
-        run: cargo deny check
+        run: cargo deny check --config deny.toml
 
       - name: Test coverage
         run: cargo tarpaulin --fail-under 80

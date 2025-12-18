@@ -1,7 +1,12 @@
 [package]
-name = "reqoxdize"
+name = "reqoxidize"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
 
-[dependencies]
+[workspace]
+resolver = "2"
+members = [
+    "crates/core",
+    "crates/cli"
+]
