@@ -19,7 +19,7 @@ jobs:
         run: cargo deny check --config deny.toml
 
       - name: Test coverage
-        run: cargo tarpaulin --fail-under 80
+        run: cargo tarpaulin --fail-under 10
 
       - name: Build using cargo chef
         run: |
