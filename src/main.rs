@@ -1,4 +1,3 @@
-
 fn minus(left: u64, right: u64) -> u64 {
     left - right
 }
@@ -6,7 +5,6 @@ fn minus(left: u64, right: u64) -> u64 {
 fn main() {
     println!("{}", minus(2, 2));
 }
-
 
 #[cfg(test)]
 mod tests {
