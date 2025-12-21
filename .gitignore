@@ -1,1 +1,5 @@
 /target
+
+/coverage
+/.idea
+/.vscode
